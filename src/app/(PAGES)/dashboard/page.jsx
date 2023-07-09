@@ -6,8 +6,8 @@ import styles from "./page.module.css";
 const CheckAvailability = () => {
     return (
         <table>
-            <tbody>
-            <tr>
+            <tbody className= {styles.stocks}>
+            <tr  >
                 <th>Blood Group</th>
                 <th>Qty. in litres</th>
             </tr>

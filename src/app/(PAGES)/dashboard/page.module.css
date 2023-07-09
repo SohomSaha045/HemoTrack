@@ -2,16 +2,32 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    
 }
-
+.blood_bank_name{
+display: flex;
+width: 237px;
+height: 42px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(64, 14, 14, 0.95);
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-family: Lato;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+align-items: center;
+}
 .left_nav{
     width: 20%;
-    background: linear-gradient(to bottom, #c20000, #e60f0f);
+    background:  linear-gradient(157deg, #B32346 22.17%, #6A0B37 66.92%);
     color: white;
     height: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
 }
 .right_nav{
     width: 65%;
@@ -21,12 +37,29 @@
     list-style: none;
     justify-content: space-between;
     margin-bottom:50px ;
-    height:3rem;
+    height:5rem;
     display: flex;
     align-items: center;
-     
+    
+    display: flex;
+    width: 250px;
+    padding: 3px 30px 0px 31px;
+    justify-content: center;
+    box-shadow: inset 0 0 10px #48414114;
+    border-radius: 15px;
+background: #d9390d;
+
+color: #FFF;
+text-shadow: 0px 4px 4px 0px rgba(235, 56, 24, 0.379);
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+            
     
 }
+
 .nav_option :hover{
     background-color:  rgba(245, 151, 151 , 0.2);
   
