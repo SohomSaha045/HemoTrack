@@ -28,7 +28,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-left: 3px solid gray;
 }
+
 .context
 {
   font-weight: bold;
@@ -42,10 +44,23 @@
   text-decoration: none;
   color: black;
   background: white;
-  padding: 0.5rem 1rem;;
+  padding: 1rem 1.5rem;;
   font-weight: 700;
   border-radius: 7px;
   -webkit-box-shadow: 6px 8px 16px -4px rgba(97,97,97,1);
   -moz-box-shadow: 6px 8px 16px -4px rgba(97,97,97,1);
   box-shadow: 6px 8px 16px -4px rgba(97,97,97,1); 
+}
+
+.get_started{
+  cursor: pointer;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  background: #111;
+  border-radius: 9px;
+  margin-top: 2%;
+  text-decoration: none;
 }
