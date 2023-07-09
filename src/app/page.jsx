@@ -1,9 +1,12 @@
+"use client";
+
 import styles from './page.module.css'
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.main}>
+
       <div className={styles.top}>
         <div className={styles.left_div}>
         <svg viewBox="0 0 1000 1080" fill="none">
@@ -34,10 +37,11 @@ export default function Home() {
           <div className={styles.subheading}>
             Introducing the Impenetrable Haven of Blood: A Decentralized Blood Bank where Every Drop Counts! Embrace the Future of Safety and Transparency in the Realm of Life-Giving Fluids.<br />Welcome to a World where Security Reigns Supreme, and every Contribution is Accounted for, in our Precious Lifeline!
           </div>
+          <Link href="#bottom_div" className={styles.get_started} scroll={true}>Get Started</Link>
         </div>
       </div>
 
-      <div className={styles.bottom}>
+      <div className={styles.bottom} id="bottom_div">
         <div className={styles.left_col}>
           <div className={styles.context}>
             Blood bank employee login
