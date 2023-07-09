@@ -27,19 +27,21 @@ function page() {
                 <input type="password" className={styles.inp} placeholder='Confirm password' />
               </div>
 
-              <div className={styles.bloodgroup}>
-                <input type="text" className={styles.inp} placeholder="A+ in litres" />
-                <input type="text" className={styles.inp} placeholder="B+ in litres" />
-                <input type="text" className={styles.inp} placeholder="AB+ in litres" />
-                <input type="text" className={styles.inp} placeholder="O+ in litres" />
-                <input type="text" className={styles.inp} placeholder="A- in litres" />
-                <input type="text" className={styles.inp} placeholder="B- in litres" />
-                <input type="text" className={styles.inp} placeholder="AB- in litres" />
-                <input type="text" className={styles.inp} placeholder="O- in litres" />
+              <div className={styles.bloodgroup1}>
+                <input type="text" className={styles.inp} placeholder="A+" />
+                <input type="text" className={styles.inp} placeholder="B+" />
+                <input type="text" className={styles.inp} placeholder="AB+" />
+                <input type="text" className={styles.inp} placeholder="O+" />
               </div>
+              <div className={styles.bloodgroup1}>
+                <input type="text" className={styles.inp} placeholder="A-" />
+                <input type="text" className={styles.inp} placeholder="B-" />
+                <input type="text" className={styles.inp} placeholder="AB-" />
+                <input type="text" className={styles.inp} placeholder="O-" />
+                </div>
             </div>
 
-            <div className="register">
+            <div className={styles.register}>
               <button type="submit">Register</button>
             </div>
           </div>

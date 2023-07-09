@@ -49,11 +49,16 @@ const CheckAvailability = () => {
 }
 
 const RequestPending = () => {
-    return "Pending";
+    return (
+        <h1> hello </h1>
+    )
 }
 
 const TransactionRecord = () => {
-    return "Record";
+   return(
+    <h2>Hello</h2>
+   )
+
 }
 
 function page() {
@@ -73,7 +78,7 @@ function page() {
                         <li>Pending Blood Request    </li>
                     </div>
                     <div className={`${styles.nav_option} ${option == 2 ? styles.nav_option_selected : ''}`} onClick={() => { setOption(2) }}>
-                        <li>Transaction Records</li>
+                        <li>Request for blood</li>
                     </div>
                 </div>
                 <div className={styles.req_btn}>
