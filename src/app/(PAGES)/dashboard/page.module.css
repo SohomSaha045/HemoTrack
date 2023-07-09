@@ -16,9 +16,23 @@
 .right_nav{
     width: 65%;
 }
-.nav_option{
+.nav_option li{
     cursor: pointer;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom:50px ;
+    height:3rem;
+    display: flex;
+    align-items: center;
+     
+    
 }
+.nav_option :hover{
+    background-color:  rgba(245, 151, 151 , 0.2);
+  
+
+}
+
 .nav_option_selected{
     border-left: 3px solid black;
 }

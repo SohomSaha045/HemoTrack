@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 const CheckAvailability = () => {
     return (
         <table>
+            <tbody>
             <tr>
                 <th>Blood Group</th>
                 <th>Qty. in litres</th>
@@ -42,6 +43,7 @@ const CheckAvailability = () => {
                 <td>O-</td>
                 <td>0</td>
             </tr>
+            </tbody>
         </table>
     )
 }
