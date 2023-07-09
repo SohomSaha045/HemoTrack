@@ -1,0 +1,29 @@
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.col1, .col2{
+    width: 50%;
+    height: 100vh;
+}
+.top_div{
+    width:50%;
+    border-bottom: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inp{
+    display: block;
+}
+
+.bottom_div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
