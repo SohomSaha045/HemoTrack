@@ -77,3 +77,11 @@ line-height: 150%;
     justify-content: center;
     align-items: center;
 }
+
+.stocks{
+    border-collapse: separate;
+    border-spacing: 15px;
+    font-size : 30px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
