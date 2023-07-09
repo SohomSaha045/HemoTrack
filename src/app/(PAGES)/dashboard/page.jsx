@@ -5,9 +5,9 @@ import styles from "./page.module.css";
 
 const CheckAvailability = () => {
     return (
-        <table>
+        <table className={styles.table}>
             <tbody >
-            <tr className= {styles.stocks} >
+            <tr>  
                 <th >Blood Group</th>
                 <th>Qty. in litres</th>
             </tr>
@@ -70,7 +70,7 @@ function page() {
                         <li>Blood availability</li>
                     </div>
                     <div className={`${styles.nav_option} ${option == 1 ? styles.nav_option_selected : ''}`} onClick={() => { setOption(1) }}>
-                        <li>Request Pending</li>
+                        <li>Pending Blood Request    </li>
                     </div>
                     <div className={`${styles.nav_option} ${option == 2 ? styles.nav_option_selected : ''}`} onClick={() => { setOption(2) }}>
                         <li>Transaction Records</li>
